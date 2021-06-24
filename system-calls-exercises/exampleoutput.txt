@@ -1,0 +1,87 @@
+>>  g++ -O2 -Wall openreadclosestat.cpp -o openreadclosestat
+
+>>  ./openreadclosestat
+Usage: ./openreadclosestat [Directory-to-open]
+	 [Directory-to-open] - For the tutorial exercise, this is one of: Test1, Test2, or Test3
+
+>>  ./openreadclosestat Test1
+Number stat fails: 0
+---------
+File: Api.txt
+	Size: 4
+---------
+File: Bob.txt
+	Size: 4
+---------
+File: Alice.txt
+	Size: 6
+---------
+File: Daniel.txt
+	Size: 11
+---------
+
+>>  ./openreadclosestat Test2
+Number stat fails: 0
+---------
+File: b0tt0mJeans
+	Size: 14
+---------
+File: 2000sandstorm
+	Size: 103
+---------
+File: Apple
+	Size: 4096
+---------
+File: Barude
+	Size: 4096
+---------
+File: Crab
+	Size: 4096
+---------
+
+>>  ./openreadclosestat Test3
+Number stat fails: 0
+---------
+
+
+
+>>  g++ -O2 -Wall popenfgets.cpp -o popenfgets
+
+>>  ./popenfgets
+Usage: ./popenfgets [Directory-to-open]
+	 [Directory-to-open] - For the tutorial exercise, this is one of: Test1, Test2, or Test3
+
+>>  ./popenfgets Test1
+File: Api.txt
+	Size: 4
+---------
+File: Bob.txt
+	Size: 4
+---------
+File: Alice.txt
+	Size: 6
+---------
+File: Daniel.txt
+	Size: 11
+---------
+
+>>  ./popenfgets Test2
+File: b0tt0mJeans
+	Size: 14
+---------
+File: 2000sandstorm
+	Size: 103
+---------
+File: Apple
+	Size: 4096
+---------
+File: Barude
+	Size: 4096
+---------
+File: Crab
+	Size: 4096
+---------
+
+>>  ./popenfgets Test3
+
+
